@@ -248,7 +248,6 @@ from . import rtb
 from .rtb import *
 __all__.extend(rtb.__all__)
 
-
 from . import gnm
 from .gnm import *
 __all__.extend(gnm.__all__)
@@ -297,10 +296,3 @@ from . import adaptive
 from .adaptive import *
 __all__.extend(adaptive.__all__)
 
-from . import clustenm
-from .clustenm import *
-__all__.extend(clustenm.__all__)
-
-# workaround for circular dependency to accommodate original design style 
-from prody.ensemble import functions
-functions.ClustENM = ClustENM
