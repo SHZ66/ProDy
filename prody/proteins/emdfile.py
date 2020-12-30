@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """This module defines functions for parsing and writing `EMD map files`_.
 
-.. _EMD maps: http://emdatabank.org/mapformat.html"""
+.. _EMD map files: http://emdatabank.org/mapformat.html"""
 
 from collections import defaultdict
 import os.path
@@ -32,7 +32,7 @@ def parseEMD(emd, **kwargs):
 
     This function extends :func:`.parseEMDStream`.
 
-    See :ref:`parseEMD` for a detailed usage example. 
+    See :ref:`_cryoem_analysis` for a usage example. 
 
     :arg emd: an EMD identifier or a file name. A 4-digit 
               EMDataBank identifier can be provided to download 
